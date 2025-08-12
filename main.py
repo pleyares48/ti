@@ -1,3 +1,4 @@
+# APK build ready
 import sqlite3
 from datetime import datetime, timedelta
 import os
@@ -540,4 +541,5 @@ class BusinessApp(App):
         return LoginScreen(self)
 
 if __name__ == '__main__':
+
     BusinessApp().run()
